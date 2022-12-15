@@ -1,0 +1,221 @@
+*{ 
+    background-color: black;
+    margin: 0px 0px; 
+}
+.heading{
+    margin: 0px 0px; 
+    background-color: beige;
+    display: flex;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+.logo{
+    background-color: beige;
+}
+.icon{background-color: beige;}
+.imgl{ 
+    margin: 0px 0px;
+    width: 35% ;
+    display: block;
+}
+.togglehead{
+    margin-top: 15px;
+    display: block;
+    background-color:beige;
+}
+#myLinks{
+    overflow: hidden;
+    position: relative;
+    display: none;
+    margin-top: 15px;
+    width: 90%;
+    background-color: beige;
+}
+.headt{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Montserrat', sans-serif;}
+.video-container {width: 100%; height: 100%; position: relative; background-color: black;}
+.video1car { margin: auto; display: block; width: 100%;}
+.cap1 { position: absolute; top: 0; left: 0;
+display: flex;
+background-color:rgba(0, 0, 0, 0.5);
+flex-direction: column; 
+justify-content: center;
+align-items: center; 
+width: 100%;
+height: 100%;}
+.lastcol {
+    margin: 0px 0px;
+    display: block;
+    background-color: black;
+}
+
+.text1 {
+    margin: 0px 0px;
+    background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 80px;
+    margin: 50px 90px;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;}
+.aww22{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color: beige;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.aw22image{
+    display: flex;
+    justify-content: space-around;
+}
+.aw22image img{
+    width: 16%;
+    border-radius: 10px;
+}
+.btshowaw{
+    background-color: beige;
+    color: black;
+    width: 150px;
+    height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin:50px 682px;
+    border-radius: 25px;
+}
+.btshowaw:hover{
+    background-color: black;
+    color: beige;
+    border: 2px solid beige;
+}
+.about{
+    background-image: url(masscircles.svg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin:0px 0px;
+    
+    
+}
+.phone{
+    color: beige;
+    font-size: 20px;
+    font-weight: 600;
+    font-family:  'Montserrat', sans-serif;
+    text-decoration: none;
+    padding-top: 15px;
+    margin-left: 15px;
+    background-image: url(masscircles.svg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.ab,.icons{
+    background-image: url(masscircles.svg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.each{
+    background-image: url(masscircles.svg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin-left: 50px;
+    display: flex;
+    justify-content: left;
+}
+.imgcontact{
+    width: 15% ;
+    margin-top: -500px;
+    margin-left:800px;
+}
+.carousel {
+    margin-left: 1000px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .slides {
+    width: 100%;
+    margin-right: 100px;
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+  }
+  
+  .slides::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .slides-item {
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    flex-shrink: 0;
+    font-size: 100px;
+    justify-content: center;
+    margin: 0px 200px;
+    scroll-snap-align: start;
+    transform: scale(1);
+    transform-origin: center center;
+    transition: transform .5s;
+    width: 300px;
+  }
+  
+  .carousel__nav {
+    margin: 20px -250px;
+  }
+  
+  .slider-nav {
+    background-color: #ddd;
+    border-radius: 20%;
+    color: #000;
+    display: inline-flex;
+    height: 1px;
+    border: 1px solid white;
+    justify-content: center;
+    text-decoration: none;
+    width: 10px;
+  }
+  
+  .slider-nav:hover,
+  .slider-nav:active {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .carousel__skip-link {
+    height: 1px;
+    overflow: hidden;
+    top: auto;
+    width: 1px;
+  }
+  
+  .carousel__skip-link:focus {
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    font-size: 30px;
+    height: 680px;
+    justify-content: center;
+    opacity: 0.8;
+    text-decoration: none;
+    width: 100%;
+    z-index: 1;
+  }
+  .imgcarousel{
+    width: 100%;
+  }
