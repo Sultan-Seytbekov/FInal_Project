@@ -1,17 +1,19 @@
 *{ 
     background-color: black;
     margin: 0px 0px; 
+    scroll-behavior: smooth;
 }
 .heading{
     margin: 0px 0px; 
     background-color: beige;
     display: flex;
-    position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
 }
 .logo{
     background-color: beige;
+    position: sticky;
+    top: 0;
 }
 .icon{background-color: beige;}
 .imgl{ 
@@ -26,7 +28,6 @@
 }
 #myLinks{
     overflow: hidden;
-    position: relative;
     display: none;
     margin-top: 15px;
     width: 90%;
@@ -104,8 +105,6 @@ height: 100%;}
     background-attachment: fixed;
     background-size: 100% 100%;
     margin:0px 0px;
-    
-    
 }
 .phone{
     color: beige;
