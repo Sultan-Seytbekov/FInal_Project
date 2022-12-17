@@ -7,6 +7,8 @@ function headchange() {
     }
   }
 function changeaw22(){
-  const element = document.getElementById("text1");
-  element.remove();
+  document.getElementById("rs22").remove();
+  document.getElementById("videocon").remove();
+  document.getElementById("text1").innerHTML="Autumn/Winter22";
+  
 }

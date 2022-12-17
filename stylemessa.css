@@ -1,14 +1,16 @@
 *{ 
     background-color: black;
     margin: 0px 0px; 
-    scroll-behavior: smooth;
+
 }
 .heading{
     margin: 0px 0px; 
     background-color: beige;
     display: flex;
+    position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
+    z-index: 10;
 }
 .logo{
     background-color: beige;
@@ -19,7 +21,7 @@
 .imgl{ 
     margin: 10px 0px;
     width: 20% ;
-   
+    
 }
 .togglehead{
     margin: 15px 200px;
@@ -28,7 +30,8 @@
     background-color:beige;
 }
 #myLinks{
-    margin-left: 50px;
+    overflow: hidden;
+    position: relative;
     display: none;
     padding-top: 23px;
     padding-bottom: 27px;
