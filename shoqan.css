@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 0 14px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.shoqan {
+    margin-left: 30px;
+}
+
+.back1 {
+    background-image: url("https://shoqansuits.com/static/8337069c-b3f2-488d-929c-436fce2de520");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.main_img1, .nav {
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.back1_btn {
+    width: 220px;
+    height: 50px;
+    padding: 10px;
+    margin-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    position: fixed; 
+    top: 21%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    outline: none;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+    overflow: hidden;
+    border: 2px solid #fff;
+    background-color: #fff;
+    font-weight: 400;
+    font-size: 15px;
+    position: relative;
+    transition: .4s;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: #000;
+    border-radius: 5px;
+}
+
+
+.images {
+    display: flex;
+    margin-bottom: 140px;
+    justify-content: space-around;
+    margin-left: 4%;
+}
+.images img {
+    height: 95%;
+    width: 90%;
+}
+.images button {
+    text-align: center;
+    margin-left: 24%;
+    margin-top: 20px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        height: 50px;
+        padding: 0 40px 1px;
+        outline: none;
+        text-align: center;
+        user-select: none;
+        white-space: nowrap;
+        overflow: hidden;
+        border: 2px solid #fff;
+        background-color: #fff;
+        font-weight: 400;
+        font-size: 16px;
+        position: relative;
+        transition: .4s;
+        appearance: none;
+        border-radius: 5px;
+        background-color: #2d2e2c;
+        color: #fff;
+        border: 2px solid #2d2e2c;
+}
+.images button:hover {
+    background: black;
+}
+
+
+.tufli {
+    position: relative;
+    margin-bottom: 60px;
+}
+.tufli img {
+    cursor: pointer;
+    width: 88%;
+    margin-left: 6%;
+}
+.tufli_btn {
+        position: absolute;
+        top: 50%;
+        left: 78%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #555;
+        color: white;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+
+        height: 50px;
+        padding: 0 40px 1px;
+        outline: none;
+        text-align: center;
+        border: 2px solid #fff;
+        background-color: #fff;
+        font-weight: 400;
+        color: #000;
+        border-radius: 5px;
+}
+      
+
+.rek {
+    text-align: center;
+    line-height: 1.2;
+    font-weight: 400;
+    font-size: 26px;
+    margin-bottom: 30px;
+    font-family: "TTHoves",Arial,Helvetica,sans-serif;
+}
+
+.rek_asti {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.rek_asti img{
+    cursor: pointer;
+}
+.bir {
+    float: left;
+    width: 50%;
+    margin-left: 5.9%;
+}
+.eki {
+    float: left;
+    width: 50%;
+}
+.btn1, .btn2 {
+        position: relative;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #555;
+        color: white;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        height: 50px;
+        padding: 0 40px 1px;
+        outline: none;
+        text-align: center;
+        border: 2px solid #fff;
+        background-color: white;
+        font-weight: 400;
+        color: #000;
+        border-radius: 5px;
+}
+.btn1 {
+    bottom: 15%;
+    left: 42%;
+}
+.btn2 {
+    bottom: 15%;
+    left: 44%;
+}
+
+.stilist {
+    position: relative;
+}
+.stilist img {
+    cursor: pointer;
+    width: 88%;
+    margin-left: 6%;
+}
+.stilist_btn {
+    position: relative;
+    left: 59%;
+    transform: translate(-50%, -400%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 50px;
+    padding: 0 38px 1px;
+    outline: none;
+    text-align: center;
+    border: 2px solid #fff;
+    background-color: #fff;
+    font-weight: 400;
+    color: #2d2e2c;;
+    border-radius: 5px;
+}
+.stilist_text {
+    line-height: 1.2;
+    font-weight: 400;
+    font-size: 32px;
+    font-family: "TTHoves",Arial,Helvetica,sans-serif;
+    display: block;
+    transform: translate(74%, -850%);
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    width: 600px;
+}
+
+.butik img{
+    cursor: pointer;
+    width: 45%;
+    margin-left: 6%;
+}
+
+.qara_fon {
+    background-color: black;
+    color: black;
+    width: 700px;
+    height: 450px;
+    margin-left: 51%;
+    margin-bottom: 100px;
+    top: 5%;
+}
+
+
+
+.text {
+    text-align: center;
+    line-height: 1.2;
+    font-weight: 400;
+    font-size: 32px;
+    font-family: "TTHoves",Arial,Helvetica,sans-serif;
+}
+.text_p {
+    text-align: center;
+    line-height: 1.2;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 10px 0px;
+    font-family: "TTHoves",Arial,Helvetica,sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+.form__input {
+    display: block;
+    width: 35%;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    border: 1px solid black;
+    border-radius: 10px;
+    left: 32%;
+    position: relative;
+}
+
+.form__button {
+    padding: 10px;
+    width: 120px;
+    height: 55px;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    background-color: #2d2e2c;
+    margin-top: 20px;
+    left: 45%;
+    position: relative;
+    transition: 0.5s;
+}
+
+.form__button:hover {
+    background-color: black;
+}
+
+
+
+.form__input-group p{
+    position: relative;
+    text-align: center;
+}
+
+.email_text {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.tel {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.gorod {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
