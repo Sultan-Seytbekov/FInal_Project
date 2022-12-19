@@ -1,4 +1,5 @@
 function headchange() {
+    document.getElementById("toggle").style.marginLeft = "0px";
     var x = document.getElementById("myLinks");
     if (x.style.display === "block") {
       x.style.display = "none";
@@ -151,25 +152,26 @@ function changeny21(){
         document.getElementById("btshowawsl").remove();
         document.getElementById("btshowawfs").remove();
         document.getElementById("btshowawny").remove();
-        document.getElementById("video1car").remove();
+        document.getElementById("video1car").src="messaphotos/IMG_9178.MP4"
         document.getElementById("rs22").remove();
+        document.getElementById("rs").remove();
         document.getElementById("sl22img1").src="messaphotos/IMG_9167.JPG";
         document.getElementById("sl22img2").src="messaphotos/IMG_9169.JPG";
-        document.getElementById("sl22img3").src="messaphotos/IMG_9171.JPG";
-        document.getElementById("sl22img4").src="messaphotos/IMG_9173.JPG";
-        document.getElementById("sl22img5").src="messaphotos/IMG_9175.JPG";
-        document.getElementById("rs22img1").src="messaphotos/IMG_9177.JPG";
-        document.getElementById("rs22img2").src="messaphotos/IMG_9179.JPG";
-        document.getElementById("rs22img3").src="messaphotos/IMG_9181.JPG";
-        document.getElementById("rs22img4").src="messaphotos/IMG_9174.JPG";
-        document.getElementById("rs22img5").src="messaphotos/IMG_9176.JPG";
+        document.getElementById("sl22img3").src="messaphotos/IMG_9172.JPG";
+        document.getElementById("sl22img4").src="messaphotos/IMG_9182.JPG";
+        document.getElementById("sl22img5").src="messaphotos/IMG_9183.JPG";
+        document.getElementById("fs22img1").src="messaphotos/IMG_9177.JPG";
+        document.getElementById("fs22img2").src="messaphotos/IMG_9180.JPG";
+        document.getElementById("fs22img3").src="messaphotos/IMG_9181.JPG";
+        document.getElementById("fs22img4").src="messaphotos/IMG_9174.JPG";
+        document.getElementById("fs22img5").src="messaphotos/IMG_9176.JPG";
         document.getElementById("aw22").remove();
 }
 function change(element) {
   var a=element.innerHTML;
      
   switch (a) {
-      case "autumn/winter22":
+      case "autumn-winter22":
         document.getElementById("rs22").remove();
         document.getElementById("videocon").remove();
         document.getElementById("text1").innerHTML="Autumn/Winter22";
@@ -251,7 +253,7 @@ function change(element) {
         document.getElementById("aw22").remove();
         break;
       case "feel spring":
-        document.getElementById("text1").innerHTML="Summer Linen";
+        document.getElementById("text1").innerHTML="Feel Spring";
         document.getElementById("sl22").remove();
         document.getElementById("aww22").remove();
         document.getElementById("fs22").remove();
@@ -263,17 +265,81 @@ function change(element) {
         document.getElementById("btshowawny").remove();
         document.getElementById("video1car").remove();
         document.getElementById("rs22").remove();
-        document.getElementById("sl22img1").src="messaphotos/IMG_9167.JPG";
-        document.getElementById("sl22img2").src="messaphotos/IMG_9169.JPG";
-        document.getElementById("sl22img3").src="messaphotos/IMG_9171.JPG";
-        document.getElementById("sl22img4").src="messaphotos/IMG_9173.JPG";
-        document.getElementById("sl22img5").src="messaphotos/IMG_9175.JPG";
-        document.getElementById("rs22img1").src="messaphotos/IMG_9177.JPG";
-        document.getElementById("rs22img2").src="messaphotos/IMG_9179.JPG";
-        document.getElementById("rs22img3").src="messaphotos/IMG_9181.JPG";
-        document.getElementById("rs22img4").src="messaphotos/IMG_9174.JPG";
-        document.getElementById("rs22img5").src="messaphotos/IMG_9176.JPG";
+        document.getElementById("rsimg1").src="messaphotos/IMG_9151.JPG";
+        document.getElementById("rsimg2").src="messaphotos/IMG_9154.JPG";
+        document.getElementById("rsimg3").src="messaphotos/IMG_9157.JPG";
+        document.getElementById("rsimg4").src="messaphotos/IMG_9155.JPG";
+        document.getElementById("rsimg5").src="messaphotos/IMG_9154.JPG";
+        document.getElementById("sl22img1").src="messaphotos/IMG_9137.JPG";
+        document.getElementById("sl22img2").src="messaphotos/IMG_9139.JPG";
+        document.getElementById("sl22img3").src="messaphotos/IMG_9141.JPG";
+        document.getElementById("sl22img4").src="messaphotos/IMG_9145.JPG";
+        document.getElementById("sl22img5").src="messaphotos/IMG_9148.JPG";
         document.getElementById("aw22").remove();
+        document.getElementById("ny").remove();
+        break;
+        case "ny21 drop":
+          document.getElementById("text1").innerHTML="NY21 drop";
+          document.getElementById("sl22").remove();
+          document.getElementById("aww22").remove();
+          document.getElementById("fs22").remove();
+          document.getElementById("ny21").remove();
+          document.getElementById("btshowaw").remove();
+          document.getElementById("btshowawrs").remove();
+          document.getElementById("btshowawsl").remove();
+          document.getElementById("btshowawfs").remove();
+          document.getElementById("btshowawny").remove();
+          document.getElementById("video1car").src="messaphotos/IMG_9178.MP4"
+          document.getElementById("rs22").remove();
+          document.getElementById("rs").remove();
+          document.getElementById("sl22img1").src="messaphotos/IMG_9167.JPG";
+          document.getElementById("sl22img2").src="messaphotos/IMG_9169.JPG";
+          document.getElementById("sl22img3").src="messaphotos/IMG_9172.JPG";
+          document.getElementById("sl22img4").src="messaphotos/IMG_9182.JPG";
+          document.getElementById("sl22img5").src="messaphotos/IMG_9183.JPG";
+          document.getElementById("fs22img1").src="messaphotos/IMG_9177.JPG";
+          document.getElementById("fs22img2").src="messaphotos/IMG_9180.JPG";
+          document.getElementById("fs22img3").src="messaphotos/IMG_9181.JPG";
+          document.getElementById("fs22img4").src="messaphotos/IMG_9174.JPG";
+          document.getElementById("fs22img5").src="messaphotos/IMG_9176.JPG";
+          document.getElementById("aw22").remove();
         break;
       }
     }
+    function GoToHomePage(){
+    window.location = 'messa.html';   
+}
+var fadeElements = document.getElementsByClassName('scrollFade');
+
+function scrollFade() {
+	var viewportBottom = window.scrollY + window.innerHeight;
+
+	for (var index = 0; index < fadeElements.length; index++) {
+		var element = fadeElements[index];
+		var rect = element.getBoundingClientRect();
+
+		var elementFourth = rect.height/4;
+		var fadeInPoint = window.innerHeight - elementFourth;
+		var fadeOutPoint = -(rect.height/2);
+
+		if (rect.top <= fadeInPoint) {
+			element.classList.add('scrollFade--visible');
+			element.classList.add('scrollFade--animate');
+			element.classList.remove('scrollFade--hidden');
+		} else {
+			element.classList.remove('scrollFade--visible');
+			element.classList.add('scrollFade--hidden');
+		}
+
+		if (rect.top <= fadeOutPoint) {
+			element.classList.remove('scrollFade--visible');
+			element.classList.add('scrollFade--hidden');
+		}
+	}
+}
+
+document.addEventListener('scroll', scrollFade);
+window.addEventListener('resize', scrollFade);
+document.addEventListener('DOMContentLoaded', function() {
+    scrollFade();
+});
