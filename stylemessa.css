@@ -24,7 +24,7 @@
     
 }
 .togglehead{
-    margin: 15px 200px;
+    margin: 15px 450px;
     position: relative;
     display: block;
     background-color:beige;
@@ -38,6 +38,7 @@
     margin-right: -50px;
     width: 75%;
     background-color: beige;
+    color: black;
 }
 .headt{
     text-decoration: none;
@@ -91,6 +92,10 @@ height: 100%;}
 .aw22image img{
     width: 16%;
     border-radius: 10px;
+}
+.aw22image img:hover{
+  transform: scale(1.1);
+  
 }
 .btshowaw{
     background-color: beige;
@@ -224,4 +229,85 @@ height: 100%;}
 .imgmaincar{
     width: 100%;
     text-align: center;
+}
+@media (max-width:480px) {
+  
+}
+
+.scrollFade {
+  opacity: 1;
+  pointer-events: all;
+}
+.scrollFade--hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+.scrollFade--visible {
+  opacity: 1;
+  pointer-events: all;
+}
+.scrollFade--animate {
+  transition: opacity 1s ease-in-out;
+}
+.form{
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.form__input {
+  display: block;
+  width: 35%;
+  padding: 15px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 10px;
+  left: 32%;
+  position: relative;
+  background-color: beige;
+}
+
+.form__button {
+  padding: 10px;
+  width: 120px;
+  height: 55px;
+  font-weight: bold;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  background-color: #2d2e2c;
+  margin-top: 20px;
+  left: 46%;
+  position: relative;
+  transition: 0.5s;
+}
+
+.form__button:hover {
+  background-color: beige;
+  color: black;
+}
+
+
+
+.form__input-group p{
+  position: relative;
+  text-align: center;
+}
+
+.email_text {
+  color: beige;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.tel {
+  color: beige;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.gorod {
+  color: beige;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
