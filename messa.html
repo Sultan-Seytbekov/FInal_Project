@@ -8,7 +8,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-
+    <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+   />
     <link rel="stylesheet" href="stylemessa.css">
     <title>MESSA</title>
 </head>
@@ -127,31 +130,27 @@
     </section>
     <section class="about">
         <h1 class="text1">Contacts</h1>
+        <div class="contactss">
         <div class="ab">
             <div class="each ">
                 <a href="" class="icons"><img src="C:\Users\asus\Documents\GitHub\FInal_Project\messaphotos\phone-62-48.png" alt="" class="icons"></a>
                 <a href="" class="phone">+7 701 188 85 05</a>
             </div>
-        </div>
-        <div class="ab">
             <div class="each">
                 <a href="https://api.whatsapp.com/send/?phone=77011888505&text&type=phone_number&app_absent=0" class="icons"><img src="C:\Users\asus\Documents\GitHub\FInal_Project\messaphotos\whatsapp-48.png" alt="" class="icons"></a>
                 <a href="https://api.whatsapp.com/send/?phone=77011888505&text&type=phone_number&app_absent=0" class="phone">+7 701 188 85 05</a>
             </div>
-        </div>
-        <div class="ab">
             <div class="each">
                 <a href="https://www.instagram.com/messa_int/?hl=en" class="icons"><img src="C:\Users\asus\Documents\GitHub\FInal_Project\messaphotos\instagram-48.png" alt="" class="icons"></a>
                 <a href="https://www.instagram.com/messa_int/?hl=en" class="phone">@messa_int</a>
             </div>
-        </div>
-        <div class="ab">
             <div class="each">
                 <a href="https://maps.apple.com/?ll=43.250660,76.888140&q=Al%20Farabi%20avenue%20140a/1,Villa%20Boutiques%20and%20Restaurants,A6%20Almaty,%20Kazakhstan&_ext=EiQpKzV7oBWgRUAxP5EnSdc4U0A5KzV7oBWgRUBBP5EnSdc4U0A%3D&t=m" class="icons"><img src="C:\Users\asus\Documents\GitHub\FInal_Project\messaphotos\map-5-48.png" alt="" class="icons"></a>
                 <a href="https://maps.apple.com/?ll=43.250660,76.888140&q=Al%20Farabi%20avenue%20140a/1,Villa%20Boutiques%20and%20Restaurants,A6%20Almaty,%20Kazakhstan&_ext=EiQpKzV7oBWgRUAxP5EnSdc4U0A5KzV7oBWgRUBBP5EnSdc4U0A%3D&t=m" class="phone">Al Farabi avenue 140a/1,Villa Boutiques and Restaurants,A6 Almaty, Kazakhstan</a>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2907.898891661731!2d76.91847361544504!3d43.21160997913893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836f369ce2f6a7%3A0xf5d8d3dca4589b2a!2sVilla%20Boutiques%20%26%20Restaurants!5e0!3m2!1sen!2sin!4v1671451989924!5m2!1sen!2sin" width="600" height="450" style="border-radius:20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+                </div>
         </div>
+        <div class="mapgooglee"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2907.898891661731!2d76.91847361544504!3d43.21160997913893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836f369ce2f6a7%3A0xf5d8d3dca4589b2a!2sVilla%20Boutiques%20%26%20Restaurants!5e0!3m2!1sen!2sin!4v1671451989924!5m2!1sen!2sin" width="500" height="400"  class="mapgoogle" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div></div>
     </section>  
 
     <form class="form">
@@ -161,7 +160,7 @@
         </div>
         <div class="form__input-group">
             <p class="tel">Phone number</p>
-            <input type="text" class="form__input">
+            <input type="tel" class="form__input" id="phone">
         </div>
         <div class="form__input-group">
             <p class="gorod">Time</p>

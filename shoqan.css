@@ -337,3 +337,49 @@ div.sticky {
     margin-bottom: 10px;
 }
 
+.mainn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    left: 6%;
+    max-width: 1150px;
+}
+
+.qara {
+    height: 350px;
+    width: 560px;
+    background-color: #2d2e2c;
+    color: white;
+    align-items: center;
+    margin-top: -4px;
+}
+
+.qara_ishi {
+    text-align: center;
+    margin-top: 40px;
+    line-height: 1.4;
+    font-family: "TTHoves",Arial,Helvetica,sans-serif;
+}
+.qara_ishi h1 {
+    font-size: 26px;
+}
+.qara_ishi p {
+    font-size: 15px;
+}
+
+.qara_btn {
+    margin-top: 20px;
+    width: 135px;
+    height: 45px;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: white;
+    background-color: white;
+    transition: 0.5s;
+    font-size: 14px;
+}
+
+.qara_btn:hover {
+    background-color: #2d2e2c;
+    color: white;
+}
