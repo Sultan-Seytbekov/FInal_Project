@@ -230,10 +230,6 @@ height: 100%;}
     width: 100%;
     text-align: center;
 }
-@media (max-width:480px) {
-  
-}
-
 .scrollFade {
   opacity: 1;
   pointer-events: all;
@@ -280,6 +276,7 @@ height: 100%;}
   left: 46%;
   position: relative;
   transition: 0.5s;
+  font-family:  'Montserrat', sans-serif;
 }
 
 .form__button:hover {
@@ -295,19 +292,76 @@ height: 100%;}
 }
 
 .email_text {
+  font-family:  'Montserrat', sans-serif;
   color: beige;
   margin-top: 20px;
   margin-bottom: 10px;
 }
 
 .tel {
+  font-family:  'Montserrat', sans-serif;
   color: beige;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
 .gorod {
+  font-family:  'Montserrat', sans-serif;
   color: beige;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+.contactss{
+  display: flex;
+  justify-content: space-around;
+  padding-top: -50px;
+}
+.mapgooglee{
+  margin-right: 50px;
+  margin-top: -130px
+}
+.mapgoogle{
+  border-radius:20px;
+}
+@media (max-width:480px) {
+  *{overflow-x: hidden;}
+  .togglehead{width: 0%; margin: 15px 100px;}
+  .headt{
+    font-size: 9px;
+    margin-left: 1px;
+    margin-right: 1px;
+  }.imgl{
+    width: 110%;
+  }
+  .text1{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+  }
+  .numbertext{
+    font-size: 8px;
+  }
+  .prev,.next{
+    font-size: 8px;
+    width: 30px;
+  }.aww22{
+    font-size: 15px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  .aww22image{
+    padding-top: 0px;
+  }
+  .btshowaw{
+    font-size: 5px;
+    margin: 0px 170px;
+    width: 70px;
+    height: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  
 }
