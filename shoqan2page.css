@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 0 14px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.shoqan {
+    margin-left: 30px;
+}
+
+select{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 16%;
+    left: 87.6%;
+    width: 180px;
+    height: 50px;
+    padding: 5px 10px;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    background-color: white;
+    color: #333;;
+    border: 2px solid #e1e1e1;
+    border-radius: 3px;
+    align-items: center;
+}
+
+.cl1 {
+    justify-items: center;
+    display: flex;
+    top: 100px;
+    position: relative;
+    justify-content: space-around;
+    padding: 0 40px;
+    line-height: 1.4;
+}
+
+h4{
+    padding: 0 160px;
+}
+p {
+    padding: 0 180px;
+}
+h5 {
+    padding: 0 230px;
+}
+
+.mainn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    left: 3.15%;
+    max-width: 1223px;
+    margin-top: 160px;
+    margin-bottom: 100px;
+}
+
+.qara {
+    height: 350px;
+    width: 580px;
+    background-color: #2d2e2c;
+    color: white;
+    align-items: center;
+    margin-top: -4px;
+}
+
+.qara_ishi {
+    text-align: center;
+    margin-top: 40px;
+    line-height: 1.4;
+    font-family: "TTHoves",Arial,Helvetica,sans-serif;
+}
+.qara_ishi h1 {
+    font-size: 26px;
+}
+.qara_ishi p {
+    font-size: 15px;
+}
+
+.text {
+    text-align: center;
+    line-height: 1.2;
+    font-weight: 400;
+    font-size: 32px;
+    font-family: "TTHoves",Arial,Helvetica,sans-serif;
+    margin-top: 90px;
+}
+.text_p {
+    text-align: center;
+    line-height: 1.2;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 10px 0px;
+    font-family: "TTHoves",Arial,Helvetica,sans-serif;
+}
+
+.form__input {
+    display: block;
+    width: 35%;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    border: 1px solid black;
+    border-radius: 10px;
+    left: 32.5%;
+    position: relative;
+}
+
+.form__button {
+    padding: 10px;
+    width: 120px;
+    height: 55px;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    background-color: #2d2e2c;
+    margin-top: 20px;
+    left: 45.3%;
+    position: relative;
+    transition: 0.5s;
+}
+
+.form__button:hover {
+    background-color: black;
+}
+
+.form__input-group p{
+    position: relative;
+    text-align: center;
+}
+
+.email_text {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.tel {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.gorod {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.last_text {
+    margin-right: 100px;
+    margin-top: 120px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    font-family: "TTHoves",Arial,Helvetica,sans-serif;
+    line-height: 1.4;
+}
+
+.last_text h1 {
+    margin-left: 160px;
+}
+
+.last_text p {
+    margin-top: 10px;
+    line-height: 2;
+}
+
+.col2 a {
+    text-decoration: none;
+    color: black;
+}
+.col2 a:hover {
+    color: gray;
+}
+.col3 {
+    margin-top: 44px;
+}
