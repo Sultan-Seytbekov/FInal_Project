@@ -1,10 +1,16 @@
 body {
-	background: red;
+	background-image: url('https://images.unsplash.com/photo-1479722842840-c0a823bd0cd6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDF8fGNocmlzdG1hc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60');
+	background-size: cover;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
 	flex-direction: column;
+}
+.toggle {
+    width: 110px;
+    margin-left: 165px;
+    margin-top: 5px;
 }
 
 *{

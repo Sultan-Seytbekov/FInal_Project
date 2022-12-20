@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SHOQAN</title>
-    <link rel="stylesheet" href="Shoqan.css">
+    <link rel="stylesheet" href="shoqan.css">
     <link rel="icon" href="https://www.picng.com/upload/letter_q/png_letter_q_52255.png">
 </head>
 <body>
