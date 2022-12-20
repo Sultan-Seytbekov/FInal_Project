@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family:  'Montserrat', sans-serif;
 }
 
 .banner {
@@ -23,7 +23,7 @@
 }
 
 .logo {
-    width: 120px;
+    width: 220px;
     cursor: pointer;
 }
 
@@ -108,4 +108,31 @@ button:hover span{
 
 button:hover {
     border: none;
+}
+.ab{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.imglogoabout{
+    width:45%;
+    margin: 50px 50px;
+}
+.abpa{
+    margin-top: 180px;
+}
+.ab p{
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 20px;
+}
+.ab .text2{
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 20px;
+    color: black;
 }
