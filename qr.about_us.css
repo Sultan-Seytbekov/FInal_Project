@@ -7,6 +7,25 @@ html {
     box-sizing: border-box;
 }
 
+.header {
+    display: flex;
+    background-color: rgb(72, 83, 149);
+}
+
+.adres {
+    flex-direction: column;
+}
+
+.map {
+    border-radius: 100px;
+    width: 30%;
+    margin-left: auto;
+}
+
+.text {
+    font-size: 100px;
+}
+
 *,
 *:before,
 *:after {
@@ -121,6 +140,10 @@ nav ul li a:hover {
         width: 100%;
         display: block;
     }
+}
+
+.foot {
+    display: flex;
 }
 
 #footer {
