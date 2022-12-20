@@ -3,6 +3,15 @@
     padding: 0;
 }
 
+.suretter img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
 
 div.sticky {
     position: -webkit-sticky;
@@ -16,8 +25,10 @@ div.sticky {
     border-bottom: 1px solid #e1e1e1;
 }
 
-.shoqan {
-    margin-left: 30px;
+.toggle {
+    width: 30px;
+    padding-left: 25px;
+    margin-top: 5px;
 }
 
 select{
@@ -190,4 +201,10 @@ h5 {
 }
 .col3 {
     margin-top: 44px;
+}
+
+@media only screen and (max-width:480px) {
+    .suretter {
+    margin-right: 3000px;
+    }
 }

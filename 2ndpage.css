@@ -2,8 +2,7 @@
     margin: 0;
     padding: 0;
 }
-
-.suretter img:hover {
+.suretterr img:hover {
     transform: scale(1.05);
     cursor: pointer;
 }
@@ -25,11 +24,13 @@ div.sticky {
     border-bottom: 1px solid #e1e1e1;
 }
 
-.shoqan {
-    margin-left: 30px;
+.toggle {
+    width: 30px;
+    padding-left: 25px;
+    margin-top: 5px;
 }
 
-select{
+select {
     position: absolute;
     transform: translate(-50%,-50%);
     top: 16%;
@@ -198,5 +199,10 @@ h5 {
     color: gray;
 }
 .col3 {
-    margin-top: 44px;
+    margin-top: 45px;
+}
+
+@media only screen and (max-width:480px) {
+
+
 }
