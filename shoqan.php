@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SHOQAN</title>
-    <link rel="stylesheet" href="shoqan.css">
+    <link rel="stylesheet" href="Shoqan.css">
     <link rel="icon" href="https://www.picng.com/upload/letter_q/png_letter_q_52255.png">
 </head>
 <body>
@@ -27,8 +27,8 @@
             <button class="back1_btn">NEW COLLECTION</button>
         </div></a>
 
-        <div class="images">
-            <div class="c1">
+        <div class="images scrollFade" >
+            <div class="c1" >
                 <img src="https://shoqansuits.com/static/6e9b1473-e405-40bc-b546-612631056837" alt="">
                 <button class="c1_btn">Кэжуал</button>
             </div>
@@ -42,14 +42,14 @@
             </div>
         </div>
 
-        <div class="tufli">
+        <div class="tufli scrollFade">
             <a href="third_page.php"><img src="https://shoqansuits.com/static/82e1b845-8c83-46fa-92a6-5e8c358604cd" alt=""></a>
             <a href="third_page.php"><button class="tufli_btn">Посмотреть</button></a>
         </div>
 
         <h1 class="rek">Рекомендуем</h1>
 
-        <div class="rek_asti">
+        <div class="rek_asti scrollFade">
             <div class="bir">
                 <img src="https://shoqansuits.com/static/73464d03-495a-49ad-b539-cd75aa988e4c" alt="" width="87%" height="90%">
                 <!-- <button class="btn1">Посмотреть</button> -->
@@ -60,14 +60,14 @@
             </div> 
         </div>
 
-        <div class="stilist">
+        <div class="stilist scrollFade">
             <img src="https://shoqansuits.com/static/89b72814-629c-4e44-bd42-4aee49cad1f7" alt="">
             <a href="#foorm"><button class="stilist_btn" >Записаться</button></a>
         </div>
 
         <h1 class="stilist_text">Бесплатная консультация стилистов</h1>
                                                             
-        <div class="mainn">
+        <div class="mainn scrollFade">
             <div class="aq">
                 <img src="https://avatars.mds.yandex.net/get-altay/4797538/2a0000017a0fc3be3ca9903b6097efc67b2a/XXXL" width="550px" height="350px">
             </div>
@@ -82,12 +82,12 @@
             </div>
         </div>
 
-        <h1 class="text" id="foorm">Узнай первым</h1>
+        <h1 class="text scrollFade" id="foorm">Узнай первым</h1>
         <br><br>
-        <p class="text_p">Подпишись на нашу рассылку и будь первым, кто узнает о предстоящих коллекциях и сотрудничестве. <br>
+        <p class="text_p scrollFade">Подпишись на нашу рассылку и будь первым, кто узнает о предстоящих коллекциях и сотрудничестве. <br>
             Вы также будете получать эксклюзивные предложения, доступные только нашим подписчикам.</p>
 
-            <form class="form" action="demo.php" method="post">
+            <form class="form scrollFade" action="demo.php" method="post">
                 <div class="form__input-group">
                     <p class="email_text">Email</p>
                     <input type="email" class="form__input" name="email">
@@ -103,7 +103,7 @@
                 <button class="form__button" type="submit">Подписаться</button>
             </form>
 
-        <div class="last_text">
+        <div class="last_text scrollFade">
             <div class="col1">
                 <h1>Для клиентов</h1>
                 <p>Политика конфиденциальности <br>Условия использования <br> Доставка и возврат <br>Онлайн-платежи</p>
@@ -130,6 +130,6 @@
 
     </div>
 
-    <script src="JavaScript/Shoqan.js"></script>
+    <script src="Animation.js"></script>
 </body>
 </html>

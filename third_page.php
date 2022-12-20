@@ -18,7 +18,7 @@
     </div>
 
     <select>
-        <option selected class="selected">Выберите размер</option>
+        <option selected class="selected scrollFade">Выберите размер</option>
         <option>38</option>
         <option>39</option>
         <option>40</option>
@@ -30,7 +30,7 @@
     </select>
 
     <div class="suretter">
-      <div class="cl1">
+      <div class="cl1 scrollFade">
         <div class="r1_1">
             <img src="https://shoqansuits.com/static/b99fab91-317e-479d-832d-cca10c9e4bf9" alt="" width="95%">
             <br><br><h4>Двубортный костюм в полоску</h4>
@@ -45,7 +45,7 @@
         </div>
       </div>
 
-      <div class="cl1">
+      <div class="cl1 scrollFade">
         <div class="r1_1">
             <img src="https://ae04.alicdn.com/kf/H498c57be064f465996b7e2af28da324bV.jpg_480x480.jpg" alt="" width="95%">
             <br><br><h4>Двубортный костюм в полоску</h4>
@@ -60,7 +60,7 @@
         </div>
       </div>
 
-      <div class="cl1">
+      <div class="cl1 scrollFade">
         <div class="r1_1">
             <img src="https://static.insales-cdn.com/images/products/1/7896/111845080/MSC0400BL-1.jpg" alt="" width="95%">
             <br><br><h4>Двубортный костюм в полоску</h4>
@@ -75,7 +75,7 @@
         </div>
       </div>
 
-      <div class="cl1">
+      <div class="cl1 scrollFade">
         <div class="r1_1">
             <img src="https://ae01.alicdn.com/kf/U0e7f73614bed44f1ab356d22a2b32e7eR.jpg" alt="" width="95%">
             <br><br><h4>Двубортный костюм в полоску</h4>
@@ -90,7 +90,7 @@
         </div>
       </div>
 
-      <div class="cl1">
+      <div class="cl1 scrollFade">
         <div class="r1_1">
             <img src="https://ae01.alicdn.com/kf/U4660162cbc624a3fb4ec4ad2b3b5d2eab.jpg" alt="" width="95%">
             <br><br><h4>Двубортный костюм в полоску</h4>
@@ -105,7 +105,7 @@
         </div>
       </div>
 
-      <div class="cl1">
+      <div class="cl1 scrollFade">
         <div class="r1_1">
             <img src="https://www.studio-fashion.com/image/cache/data/001/obuv-iz-kozhi-krokodila-8472-2000x2000.jpg" alt="" width="95%">
             <br><br><h4>Двубортный костюм в полоску</h4>
@@ -120,7 +120,7 @@
         </div>
       </div>
 
-      <div class="cl1">
+      <div class="cl1 scrollFade">
         <div class="r1_1">
             <img src="https://static.insales-cdn.com/images/products/1/8115/111845299/MSC0400GR-1.jpg" alt="" width="95%">
             <br><br><h4>Двубортный костюм в полоску</h4>
@@ -136,11 +136,11 @@
       </div>
     </div>
 
-      <div class="mainn">
-        <div class="aq">
+      <div class="mainn" scrollFade>
+        <div class="aq scrollFade">
             <img src="https://avatars.mds.yandex.net/get-altay/4797538/2a0000017a0fc3be3ca9903b6097efc67b2a/XXXL" width="575px" height="350px">
         </div>
-        <div class="qara">
+        <div class="qara scrollFade">
             <div class="qara_ishi">
                 <h1>Бутики</h1> <br>
                 <p>Найдите ближайший к Вам бутик SHOQAN</p> 
@@ -151,12 +151,12 @@
     </div>
 
 
-    <h1 class="text" id="foorm">Узнай первым</h1>
+    <h1 class="text scrollFade" id="foorm">Узнай первым</h1>
     <br><br>
-    <p class="text_p">Подпишись на нашу рассылку и будь первым, кто узнает о предстоящих коллекциях и сотрудничестве. <br>
+    <p class="text_p scrollFade">Подпишись на нашу рассылку и будь первым, кто узнает о предстоящих коллекциях и сотрудничестве. <br>
         Вы также будете получать эксклюзивные предложения, доступные только нашим подписчикам.</p>
 
-        <form class="form" action="demo.php" method="post">
+        <form class="form scrollFade" action="demo.php" method="post">
                 <div class="form__input-group">
                     <p class="email_text">Email</p>
                     <input type="email" class="form__input" name="email">
@@ -172,7 +172,7 @@
                 <button class="form__button" type="submit">Подписаться</button>
         </form>
 
-    <div class="last_text">
+    <div class="last_text scrollFade">
         <div class="col1">
             <h1>Для клиентов</h1>
             <p>Политика конфиденциальности <br>Условия использования <br> Доставка и возврат <br>Онлайн-платежи</p>
@@ -182,7 +182,7 @@
             <p>WhatsApp: <br><a href="https://api.whatsapp.com/send?phone=+77078443600">+7 707 844 36 00</a> <br> Call-Центр: <br> <a href="">+7 707 844 36 00</a> 
                <br> По общим вопросам: <br><a href="">shop@shoqansuits.com</a> <br>По поводу заказов: <br><a href="">shop@shoqansuits.com</a></p>
         </div>
-        <div class="col3">
+        <div class="col3 scrollFade">
             <a href="https://shoqansuits.com/men?gclid=Cj0KCQiAtICdBhCLARIsALUBFcH_uGmpSlbxskU5dgu3toYqoNCr01BKY-ap_f7fBreenChB1EDgx9caAn_VEALw_wcB"><img src="https://i.pinimg.com/736x/9b/e7/a0/9be7a031fcd2215a8827ae719d546182.jpg" width="40px" alt=""></a>
              <br> <br>
             <a href="https://www.instagram.com/shoqansuits/"><img src="https://www.nicepng.com/png/detail/1-13041_logo-instagram-with-white-circle-background-png-new.png" width="40px" alt=""></a> <br> <br>
@@ -192,7 +192,7 @@
 
 
 
-
+    <script src="Animation.js"></script>
     
 
 </body>
