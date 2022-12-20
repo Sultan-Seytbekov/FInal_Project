@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+.toggle {
+    width: 30px;
+    padding-left: 25px;
+}
+
 
 div.sticky {
     position: -webkit-sticky;
@@ -13,10 +18,12 @@ div.sticky {
     display: flex;
     justify-content: space-between;
     z-index: 10;
+    border-bottom: 1px solid #e1e1e1;
 }
 
-.shoqan {
-    margin-left: 30px;
+a {
+    text-decoration: none;
+    color: black;
 }
 
 .back1 {
@@ -107,6 +114,9 @@ div.sticky {
     background: black;
 }
 
+.images img:hover {
+    transform: scale(1.05);
+}
 
 .tufli {
     position: relative;
@@ -245,24 +255,13 @@ div.sticky {
     margin-left: 6%;
 }
 
-.qara_fon {
-    background-color: black;
-    color: black;
-    width: 700px;
-    height: 450px;
-    margin-left: 51%;
-    margin-bottom: 100px;
-    top: 5%;
-}
-
-
-
 .text {
     text-align: center;
     line-height: 1.2;
     font-weight: 400;
     font-size: 32px;
     font-family: "TTHoves",Arial,Helvetica,sans-serif;
+    margin-top: 90px;
 }
 .text_p {
     text-align: center;
@@ -272,15 +271,6 @@ div.sticky {
     padding: 10px 0px;
     font-family: "TTHoves",Arial,Helvetica,sans-serif;
 }
-
-
-
-
-
-
-
-
-
 
 .form__input {
     display: block;
@@ -315,6 +305,12 @@ div.sticky {
     background-color: black;
 }
 
+.bir:hover {
+    transform: scale(1.05);
+}
+.eki:hover {
+    transform: scale(1.05);
+}
 
 
 .form__input-group p{
@@ -336,6 +332,30 @@ div.sticky {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+.last_text {
+    margin-right: 100px;
+    margin-top: 120px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    font-family: "TTHoves",Arial,Helvetica,sans-serif;
+    line-height: 1.4;
+}
+
+.last_text p {
+    margin-top: 10px;
+    line-height: 2;
+}
+
+.col2 a {
+    text-decoration: none;
+    color: black;
+}
+.col2 a:hover {
+    color: gray;
+}
+
 
 .mainn {
     position: relative;
@@ -382,4 +402,120 @@ div.sticky {
 .qara_btn:hover {
     background-color: #2d2e2c;
     color: white;
+}
+
+@media only screen and (max-width:480px) {
+    .back1_btn {
+        margin-left: -10px;
+        width: 180px;
+    }
+
+    .images button {
+        width: 80px;
+        height: 30px;
+        margin-left: 20px;
+        padding: 0;
+        font-size: 10px;
+    }
+
+    .stilist_text {
+        display: none;
+    }
+
+    .tufli_btn {
+        height: 30px;
+        width: 80px;
+        margin-right: 5px;
+        padding: 0;
+        font-size: 10px;
+    }
+
+    .tufli {
+        margin-top: -40px;
+    }
+
+    .rek {
+        font-size: 14px;
+    }
+    
+    .stilist_btn {
+        width: 130px;
+        height: 30px;
+        font-size: 10px;
+        margin-right: 80px;
+        margin-top: 20px;
+    }
+
+    .aq img {
+        width: 180px;
+        height: 220px;
+    }
+
+    .qara {
+        width: 185px;
+        height: 220px;
+    }
+
+    .qara_ishi h1{
+        margin-top: -30px;
+        font-size: 14px;
+    }
+
+    .qara_ishi p {
+        font-size: 10px;
+        line-height: 0.9;
+    }
+
+    .qara_btn {
+        height: 30px;
+        width: 80px;
+        font-size: 14px;
+        padding: 4px 0 0 0;
+    }
+
+    .text {
+        font-size: 20px;
+        margin-bottom: -30px;
+    }
+    .text_p {
+        font-size: 12px;
+        max-width: 300px;
+        margin-left: 60px;
+    }
+
+    .form__input {
+        width: 150px;
+        height: 35px;
+    }
+
+    .form__button {
+        width: 120px;
+        height: 35px;
+        margin-left: -37px;
+        margin-top: 40px;
+    }
+
+    .last_text {
+        margin-right: 10px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .last_text h1 {
+        font-size: 14px;
+    }
+
+    .last_text p {
+    }
+    
+    .back1 {
+        height: 50vh;
+    }
+
+    .back1_btn {
+        font-size: 10px;
+        width: 110px;
+        height: 35px;
+    }
+
+
 }

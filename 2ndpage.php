@@ -2,34 +2,34 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Third page</title>
-	<link rel="stylesheet" href="third_page.css">
+	<title>Second page</title>
+	<link rel="stylesheet" href="2ndpage.css">
 </head>
 <body>
     <div class="sticky"> 
         <div class="nav">
-            <img class="toggle" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMCIgaGVpZ2h0PSIzMCIgdmlld0JveD0iMCAwIDMwIDMwIj4KICAgIDxnIGZpbGw9IiMyRDJFMkMiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSIjMkQyRTJDIiBzdHJva2Utd2lkdGg9Ii4yIj4KICAgICAgICA8cGF0aCBkPSJNNS41IDE3LjloMjBhLjYuNiAwIDAgMSAwIDEuMmgtMjBhLjYuNiAwIDEgMSAwLTEuMnpNNS41IDEwLjloMjBhLjYuNiAwIDAgMSAwIDEuMmgtMjBhLjYuNiAwIDEgMSAwLTEuMnoiLz4KICAgIDwvZz4KPC9zdmc+Cg==">
+            <a href="index.html"><img class="toggle" src="https://cdn-images-1.medium.com/max/280/1*sW40iPA71NdEdbfp2zDVbA@2x.png"></a>
         </div>
-        <a href="Shoqan.html"><div class="shoqan" style="font-size: 18px; cursor: pointer; font-weight: 600; font-family: TTHoves, Arial,Helvetica,sans-serif; line-height: 2.3;">SHOQAN</div></a>
+        <a href="Shoqan.php"><div class="shoqan" style="font-size: 18px; cursor: pointer; font-weight: 600; font-family: TTHoves, Arial,Helvetica,sans-serif; line-height: 2.3;">SHOQAN</div></a>
         <div class="main_img1">
-            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><g fill="none" fill-rule="evenodd" stroke="#2D2E2C" stroke-width="1.4" transform="translate(6 8)"><ellipse cx="6.559" cy="6.203" rx="6.413" ry="6.203"></ellipse> <path stroke-linecap="round" d="M13.683 11.754l3.486 2.615"></path></g></svg>
-            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><g fill="none" fill-rule="nonzero" stroke="#2d2e2c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"><path d="M7 14h17l-2.55 8H9.55zM19 11v-.8C19 8.433 17.433 7 15.5 7S12 8.433 12 10.2v.8"></path></g></svg>
+            <svg class="svg1" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><g fill="none" fill-rule="evenodd" stroke="#2D2E2C" stroke-width="1.4" transform="translate(6 8)"><ellipse cx="6.559" cy="6.203" rx="6.413" ry="6.203"></ellipse> <path stroke-linecap="round" d="M13.683 11.754l3.486 2.615"></path></g></svg>
+            <svg class="svg2" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><g fill="none" fill-rule="nonzero" stroke="#2d2e2c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"><path d="M7 14h17l-2.55 8H9.55zM19 11v-.8C19 8.433 17.433 7 15.5 7S12 8.433 12 10.2v.8"></path></g></svg>
         </div>
     </div>
 
     <select>
         <option selected class="selected">Выберите размер</option>
-        <option>38</option>
-        <option>39</option>
-        <option>40</option>
-        <option>41</option>
-        <option>42</option>
-        <option>43</option>
-        <option>44</option>
-        <option>45</option>
+        <option>44/44</option>
+        <option>46/46</option>
+        <option>48/48</option>
+        <option>50/50</option>
+        <option>52/52</option>
+        <option>54/54</option>
+        <option>56/56</option>
+        <option>58/58</option>
     </select>
 
-    <div class="suretter">
+    <div class="suretterr">
       <div class="cl1">
         <div class="r1_1">
             <img src="https://shoqansuits.com/static/c6df490a-63fa-4ea1-99e4-2b6e0d49fa99" alt="" width="95%">
@@ -156,21 +156,21 @@
     <p class="text_p">Подпишись на нашу рассылку и будь первым, кто узнает о предстоящих коллекциях и сотрудничестве. <br>
         Вы также будете получать эксклюзивные предложения, доступные только нашим подписчикам.</p>
 
-        <form class="form">
-            <div class="form__input-group">
-                <p class="email_text">Email</p>
-                <input type="email" class="form__input">
-            </div>
-            <div class="form__input-group">
-                <p class="tel">Телефон</p>
-                <input type="text" class="form__input">
-            </div>
-            <div class="form__input-group">
-                <p class="gorod">Город</p>
-                <input type="text" class="form__input">
-            </div>
-            <button class="form__button" type="submit">Подписаться</button>
-        </form>
+        <form class="form" action="demo.php" method="post">
+                <div class="form__input-group">
+                    <p class="email_text">Email</p>
+                    <input type="email" class="form__input" name="email">
+                </div>
+                <div class="form__input-group">
+                    <p class="tel">Телефон</p>
+                    <input type="text" class="form__input" name="phone">
+                </div>
+                <div class="form__input-group">
+                    <p class="gorod">Город</p>
+                    <input type="text" class="form__input" name="gorod">
+                </div>
+                <button class="form__button" type="submit">Подписаться</button>
+            </form>
 
     <div class="last_text">
         <div class="col1">

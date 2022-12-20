@@ -2,15 +2,15 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>sultan</title>
-	<link rel="stylesheet" href="shoqan2page.css">
+	<title>Third page</title>
+	<link rel="stylesheet" href="third_page.css">
 </head>
 <body>
     <div class="sticky"> 
         <div class="nav">
-            <img class="toggle" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMCIgaGVpZ2h0PSIzMCIgdmlld0JveD0iMCAwIDMwIDMwIj4KICAgIDxnIGZpbGw9IiMyRDJFMkMiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSIjMkQyRTJDIiBzdHJva2Utd2lkdGg9Ii4yIj4KICAgICAgICA8cGF0aCBkPSJNNS41IDE3LjloMjBhLjYuNiAwIDAgMSAwIDEuMmgtMjBhLjYuNiAwIDEgMSAwLTEuMnpNNS41IDEwLjloMjBhLjYuNiAwIDAgMSAwIDEuMmgtMjBhLjYuNiAwIDEgMSAwLTEuMnoiLz4KICAgIDwvZz4KPC9zdmc+Cg==">
+            <a href="index.html"><img class="toggle" src="https://cdn-images-1.medium.com/max/280/1*sW40iPA71NdEdbfp2zDVbA@2x.png"></a>
         </div>
-        <div class="shoqan" style="font-size: 18px; cursor: pointer; font-weight: 600; font-family: TTHoves, Arial,Helvetica,sans-serif; line-height: 2.3;">SHOQAN</div>
+        <a href="Shoqan.php"><div class="shoqan" style="font-size: 18px; cursor: pointer; font-weight: 600; font-family: TTHoves, Arial,Helvetica,sans-serif; line-height: 2.3;">SHOQAN</div></a>
         <div class="main_img1">
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><g fill="none" fill-rule="evenodd" stroke="#2D2E2C" stroke-width="1.4" transform="translate(6 8)"><ellipse cx="6.559" cy="6.203" rx="6.413" ry="6.203"></ellipse> <path stroke-linecap="round" d="M13.683 11.754l3.486 2.615"></path></g></svg>
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><g fill="none" fill-rule="nonzero" stroke="#2d2e2c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"><path d="M7 14h17l-2.55 8H9.55zM19 11v-.8C19 8.433 17.433 7 15.5 7S12 8.433 12 10.2v.8"></path></g></svg>
@@ -19,26 +19,26 @@
 
     <select>
         <option selected class="selected">Выберите размер</option>
-        <option>44/44</option>
-        <option>46/46</option>
-        <option>48/48</option>
-        <option>50/50</option>
-        <option>52/52</option>
-        <option>54/54</option>
-        <option>56/56</option>
-        <option>58/58</option>
+        <option>38</option>
+        <option>39</option>
+        <option>40</option>
+        <option>41</option>
+        <option>42</option>
+        <option>43</option>
+        <option>44</option>
+        <option>45</option>
     </select>
 
     <div class="suretter">
       <div class="cl1">
         <div class="r1_1">
-            <img src="https://shoqansuits.com/static/c6df490a-63fa-4ea1-99e4-2b6e0d49fa99" alt="" width="95%">
+            <img src="https://shoqansuits.com/static/b99fab91-317e-479d-832d-cca10c9e4bf9" alt="" width="95%">
             <br><br><h4>Двубортный костюм в полоску</h4>
             <p>Тенсель, район, спандекс</p>
             <h5>120 000 KZT</h5>
         </div>
         <div class="r1_2">
-            <img src="https://shoqansuits.com/static/c27d2427-9ed8-4146-8a67-586e11a7bbd7" alt="" width="95%">
+            <img src="https://shoqansuits.com/static/ff14710c-5acb-4813-a37d-3d91c0d7358e" alt="" width="95%">
             <br><br><h4>Двубортный костюм-двойка</h4>
             <p>Тенсель, район, спандекс</p>
             <h5>120 000 KZT</h5><br>
@@ -47,13 +47,13 @@
 
       <div class="cl1">
         <div class="r1_1">
-            <img src="https://shoqansuits.com/static/8a127125-97bb-4ffa-bd62-2235eb37e099" alt="" width="95%">
+            <img src="https://ae04.alicdn.com/kf/H498c57be064f465996b7e2af28da324bV.jpg_480x480.jpg" alt="" width="95%">
             <br><br><h4>Двубортный костюм в полоску</h4>
             <p>Тенсель, район, спандекс</p>
             <h5>120 000 KZT</h5>
         </div>
         <div class="r1_2">
-            <img src="https://shoqansuits.com/static/adc9ec00-afde-4468-b780-1ca751b03abc" alt="" width="95%">
+            <img src="https://ae04.alicdn.com/kf/H816a133ba9e54afabb8f4f1e973f9f0fr.jpg_480x480.jpg" alt="" width="95%">
             <br><br><h4>Двубортный костюм-двойка</h4>
             <p>Тенсель, район, спандекс</p>
             <h5>120 000 KZT</h5><br>
@@ -62,13 +62,13 @@
 
       <div class="cl1">
         <div class="r1_1">
-            <img src="https://shoqansuits.com/static/d17651e1-4cb3-4983-9b5c-440ad823e3f8" alt="" width="95%">
+            <img src="https://static.insales-cdn.com/images/products/1/7896/111845080/MSC0400BL-1.jpg" alt="" width="95%">
             <br><br><h4>Двубортный костюм в полоску</h4>
             <p>Тенсель, район, спандекс</p>
             <h5>120 000 KZT</h5>
         </div>
         <div class="r1_2">
-            <img src="https://shoqansuits.com/static/77275a70-c534-4aa2-9a1d-049fd4f9ddfc" alt="" width="95%">
+            <img src="https://static.insales-cdn.com/images/products/1/12/111845388/MSC0401LB-1.jpg" alt="" width="95%">
             <br><br><h4>Двубортный костюм-двойка</h4>
             <p>Тенсель, район, спандекс</p>
             <h5>120 000 KZT</h5><br>
@@ -77,13 +77,13 @@
 
       <div class="cl1">
         <div class="r1_1">
-            <img src="https://shoqansuits.com/static/0b5dfa4a-9405-4749-8070-640692e3f4b1" alt="" width="95%">
+            <img src="https://ae01.alicdn.com/kf/U0e7f73614bed44f1ab356d22a2b32e7eR.jpg" alt="" width="95%">
             <br><br><h4>Двубортный костюм в полоску</h4>
             <p>Тенсель, район, спандекс</p>
             <h5>120 000 KZT</h5>
         </div>
         <div class="r1_2">
-            <img src="https://shoqansuits.com/static/6e9b1473-e405-40bc-b546-612631056837" alt="" width="95%">
+            <img src="https://ae01.alicdn.com/kf/U92b1e3a78456466d8f2f12f327e44a14f.jpg" alt="" width="95%">
             <br><br><h4>Двубортный костюм-двойка</h4>
             <p>Тенсель, район, спандекс</p>
             <h5>120 000 KZT</h5><br>
@@ -92,13 +92,13 @@
 
       <div class="cl1">
         <div class="r1_1">
-            <img src="https://shoqansuits.com/static/f730fc8e-e497-4518-ac21-dec9e9abc216" alt="" width="95%">
+            <img src="https://ae01.alicdn.com/kf/U4660162cbc624a3fb4ec4ad2b3b5d2eab.jpg" alt="" width="95%">
             <br><br><h4>Двубортный костюм в полоску</h4>
             <p>Тенсель, район, спандекс</p>
             <h5>120 000 KZT</h5>
         </div>
         <div class="r1_2">
-            <img src="https://shoqansuits.com/static/1eda1775-2918-42cb-8a48-ed151c823a0f" alt="" width="95%">
+            <img src="https://ae04.alicdn.com/kf/Uf2c7747dab334ee889c366c6a518edf7X/-.jpg" alt="" width="95%">
             <br><br><h4>Двубортный костюм-двойка</h4>
             <p>Тенсель, район, спандекс</p>
             <h5>120 000 KZT</h5><br>
@@ -107,13 +107,13 @@
 
       <div class="cl1">
         <div class="r1_1">
-            <img src="https://uploads-ssl.webflow.com/5f285563f11cb5477944d003/6367aeb8f4fceb63e22ee989_%D0%B4%D0%B2%D1%83%D0%B1%D0%BE%D1%80%D1%8210.3.jpg" alt="" width="95%">
+            <img src="https://www.studio-fashion.com/image/cache/data/001/obuv-iz-kozhi-krokodila-8472-2000x2000.jpg" alt="" width="95%">
             <br><br><h4>Двубортный костюм в полоску</h4>
             <p>Тенсель, район, спандекс</p>
             <h5>120 000 KZT</h5>
         </div>
         <div class="r1_2">
-            <img src="https://uploads-ssl.webflow.com/5f285563f11cb5477944d003/6367b07d236fd71956e97a0e_%D0%B4%D0%B2%D1%83%D0%B1%D0%BE%D1%80%D1%8215.3.jpg" alt="" width="95%">
+            <img src="https://www.studio-fashion.com/image/cache/data/001/muzhskie-tufli-iz-kozhi-krokodila-8530-2000x2000.jpg" alt="" width="95%">
             <br><br><h4>Двубортный костюм-двойка</h4>
             <p>Тенсель, район, спандекс</p>
             <h5>120 000 KZT</h5><br>
@@ -122,13 +122,13 @@
 
       <div class="cl1">
         <div class="r1_1">
-            <img src="https://uploads-ssl.webflow.com/5f285563f11cb5477944d003/6367ae63894197eace05b28b_%D0%B4%D0%B2%D1%83%D0%B1%D0%BE%D1%80%D1%829.3.jpg" alt="" width="95%">
+            <img src="https://static.insales-cdn.com/images/products/1/8115/111845299/MSC0400GR-1.jpg" alt="" width="95%">
             <br><br><h4>Двубортный костюм в полоску</h4>
             <p>Тенсель, район, спандекс</p>
             <h5>120 000 KZT</h5>
         </div>
         <div class="r1_2">
-            <img src="https://uploads-ssl.webflow.com/5f285563f11cb5477944d003/6367adb457106949bebbc648_%D0%B4%D0%B2%D1%83%D0%B1%D0%BE%D1%80%D1%826.3.jpg" alt="" width="95%">
+            <img src="https://static.insales-cdn.com/images/products/1/7959/111845143/MSC0400BK-1.jpg" alt="" width="95%">
             <br><br><h4>Двубортный костюм-двойка</h4>
             <p>Тенсель, район, спандекс</p>
             <h5>120 000 KZT</h5><br>
@@ -156,20 +156,20 @@
     <p class="text_p">Подпишись на нашу рассылку и будь первым, кто узнает о предстоящих коллекциях и сотрудничестве. <br>
         Вы также будете получать эксклюзивные предложения, доступные только нашим подписчикам.</p>
 
-        <form class="form">
-            <div class="form__input-group">
-                <p class="email_text">Email</p>
-                <input type="email" class="form__input">
-            </div>
-            <div class="form__input-group">
-                <p class="tel">Телефон</p>
-                <input type="text" class="form__input">
-            </div>
-            <div class="form__input-group">
-                <p class="gorod">Город</p>
-                <input type="text" class="form__input">
-            </div>
-            <button class="form__button" type="submit">Подписаться</button>
+        <form class="form" action="demo.php" method="post">
+                <div class="form__input-group">
+                    <p class="email_text">Email</p>
+                    <input type="email" class="form__input" name="email">
+                </div>
+                <div class="form__input-group">
+                    <p class="tel">Телефон</p>
+                    <input type="text" class="form__input" name="phone">
+                </div>
+                <div class="form__input-group">
+                    <p class="gorod">Город</p>
+                    <input type="text" class="form__input" name="gorod">
+                </div>
+                <button class="form__button" type="submit">Подписаться</button>
         </form>
 
     <div class="last_text">
