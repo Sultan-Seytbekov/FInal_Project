@@ -25,8 +25,10 @@ div.sticky {
     border-bottom: 1px solid #e1e1e1;
 }
 
-.shoqan {
-    margin-left: 30px;
+.toggle {
+    width: 30px;
+    padding-left: 25px;
+    margin-top: 5px;
 }
 
 select{
@@ -199,4 +201,26 @@ h5 {
 }
 .col3 {
     margin-top: 44px;
+}
+
+.scrollFade { 
+    opacity: 1; 
+    pointer-events: all; 
+  } 
+  .scrollFade--hidden { 
+    opacity: 0; 
+    pointer-events: none; 
+  } 
+  .scrollFade--visible { 
+    opacity: 1; 
+    pointer-events: all; 
+  } 
+  .scrollFade--animate { 
+    transition: opacity 1s ease-in-out; 
+  }
+
+@media only screen and (max-width:480px) {
+    .suretter {
+    margin-right: 3000px;
+    }
 }

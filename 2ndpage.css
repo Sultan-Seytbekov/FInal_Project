@@ -2,7 +2,15 @@
     margin: 0;
     padding: 0;
 }
+.suretterr img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
 
+a {
+    text-decoration: none;
+    color: black;
+}
 
 div.sticky {
     position: -webkit-sticky;
@@ -16,11 +24,13 @@ div.sticky {
     border-bottom: 1px solid #e1e1e1;
 }
 
-.shoqan {
-    margin-left: 30px;
+.toggle {
+    width: 30px;
+    padding-left: 25px;
+    margin-top: 5px;
 }
 
-select{
+select {
     position: absolute;
     transform: translate(-50%,-50%);
     top: 16%;
@@ -189,5 +199,26 @@ h5 {
     color: gray;
 }
 .col3 {
-    margin-top: 44px;
+    margin-top: 45px;
+}
+
+.scrollFade { 
+    opacity: 1; 
+    pointer-events: all; 
+  } 
+  .scrollFade--hidden { 
+    opacity: 0; 
+    pointer-events: none; 
+  } 
+  .scrollFade--visible { 
+    opacity: 1; 
+    pointer-events: all; 
+  } 
+  .scrollFade--animate { 
+    transition: opacity 1s ease-in-out; 
+  }
+
+@media only screen and (max-width:480px) {
+
+
 }
